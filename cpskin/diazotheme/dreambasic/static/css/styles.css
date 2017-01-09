@@ -1,0 +1,17 @@
+/*   NAVIGATION   */
+
+#top-navigation-inner::after{
+    display:none;
+}
+
+#top-navigation-inner{
+    display: block;
+    max-width: 1200px;
+    padding-top: 0.5%;
+}
+
+[id="top-logo"],
+#top-navigation-inner #navWrapper{
+    display: block;
+    float: left;
+}
