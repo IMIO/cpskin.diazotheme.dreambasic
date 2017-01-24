@@ -1,3 +1,25 @@
+/*   HEADER   */
+
+.section-notheme #top-actions,
+#top-actions {
+    background: #3b3a3a none repeat scroll 0 0;
+    padding: 0.25em 0;
+}
+
+#portal-personaltools dd {
+    background-color: #3b3a3a;
+}
+
+#portal-personaltools dd a:hover {
+    background: #4e4e4e;
+}
+
+.nav-is-stuck #top-actions  {
+    padding: 0;
+    transition: padding 1s ease 0s, font-size 1s ease 0s;
+    font-size: 90%;
+}
+
 /*   NAVIGATION   */
 
 #top-navigation-inner::after{
