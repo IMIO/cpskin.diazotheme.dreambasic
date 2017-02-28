@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-0.2 (28-01-2017)
+0.2 (2017-02-28)
 ----------------
 
 - Add the rules for the right portlets of cpskin.dream.
