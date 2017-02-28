@@ -10,24 +10,6 @@
     applyPrefix="True"
     insert-before="ploneCustom.css"
     insert-after="++theme++cpskin.diazotheme.dream/css/styles.css"/>
- 
- <stylesheet title="cpskin.diazotheme.dream styles"
-     id="++theme++cpskin.diazotheme.dream/css/styles.css"
-     media="screen" rel="stylesheet" rendering="import"
-     cacheable="True" compression="safe" cookable="True"
-     enabled="1"
-     expression="python:here.restrictedTraverse('@@currentTheme')() == 'cpskin.diazotheme.dreambasic'"
-     applyPrefix="True"
-     insert-before="ploneCustom.css" />
-  
-  <stylesheet title="cpskin.diazotheme.dream mobile style"
-     id="++theme++cpskin.diazotheme.dream/css/mobile-dream.css"
-     media="all"
-     rel="stylesheet" rendering="import"
-     cacheable="True" compression="safe" cookable="True"
-     enabled="1" expression="request/HTTP_X_THEME_ENABLED | nothing"
-     applyPrefix="True"
-     insert-after="++theme++cpskin.diazotheme.dream/css/styles.css" />
   
   <stylesheet title="cpskin.diazotheme.dreambasic mobile style"
      id="++theme++cpskin.diazotheme.dreambasic/css/mobile-dreambasic.css"
