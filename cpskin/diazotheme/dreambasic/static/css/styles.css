@@ -28,12 +28,24 @@
 
 #top-navigation-inner{
     display: block;
-    max-width: 1200px;
     padding-top: 0.5%;
 }
 
-[id="top-logo"],
+#top-logo,
 #top-navigation-inner #navWrapper{
     display: block;
     float: left;
+}
+
+/*   MINI SITE   */
+
+/*   site action   */
+
+.in-minisite-out-portal #top-actions{
+    display: none;
+}
+
+.in-minisite-out-portal .bloc-item,
+.in-minisite-in-portal .bloc-item{
+    width: 21.8%;
 }
