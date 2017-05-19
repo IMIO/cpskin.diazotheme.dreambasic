@@ -5,6 +5,9 @@ Changelog
 0.3 (unreleased)
 ----------------
 
+- Reorder theme parameters (harmonization)
+  [laulaz]
+
 - Buildout harmonization
   [laulaz]
 
