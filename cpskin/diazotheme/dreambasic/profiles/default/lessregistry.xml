@@ -23,12 +23,32 @@
 
  <stylesheet title="cpskin.diazotheme.dreambasic LESS Mobile Styles"
     id="++theme++cpskin.diazotheme.dreambasic/less/mobile.less"
-    media="all"
+    media="handheld, screen and (max-device-width: 480px), screen and (max-width: 480px)"
     enabled="1"
     rendering="link"
     applyPrefix="True"
     expression="python:here.restrictedTraverse('@@currentTheme')() == 'cpskin.diazotheme.dreambasic'"
     compression="none"
     insert-after="++theme++cpskin.diazotheme.dreambasic/less/styles.less" />
+
+ <stylesheet title="cpskin.diazotheme.dreambasic LESS Medium Mobile Styles"
+    id="++theme++cpskin.diazotheme.dreambasic/less/mobilemedium.less"
+    media="handheld, screen and (max-device-width: 768px), screen and (max-width: 768px)"
+    enabled="1"
+    rendering="link"
+    applyPrefix="True"
+    expression="python:here.restrictedTraverse('@@currentTheme')() == 'cpskin.diazotheme.dreambasic'"
+    compression="none"
+    insert-after="++theme++cpskin.diazotheme.dreambasic/less/mobile.less" />
+
+ <stylesheet title="cpskin.diazotheme.dreambasic LESS Large Mobile Styles"
+    id="++theme++cpskin.diazotheme.dreambasic/less/mobilelarge.less"
+    media="handheld, screen and (max-device-width: 1024px), screen and (max-width: 1024px)"
+    enabled="1"
+    rendering="link"
+    applyPrefix="True"
+    expression="python:here.restrictedTraverse('@@currentTheme')() == 'cpskin.diazotheme.dreambasic'"
+    compression="none"
+    insert-after="++theme++cpskin.diazotheme.dreambasic/less/mobilemedium.less" />
 
 </object>
