@@ -1,25 +1,3 @@
-/* For devices with narrow phones */
-@media handheld, screen and (max-device-width: 480px), screen and (max-width: 480px){
-    
-    /*   HEADER   */
-    
-    [id="top-logo"] {
-        margin-bottom: 1%;
-        width: 100%;
-    }
-    
-
-}
-
-/* FOR DEVICES WITH NARROW TABLET */
-@media handheld, screen and (max-device-width: 768px), screen and (max-width: 768px){
-    
-   
-    
-}
-
-/* FOR DEVICES WITH NARROW DESKTOP */
-@media handheld, screen and (min-device-width: 1024px), screen and (min-width: 1024px){
-    
-}
-
+/*
+Migrated to LESS
+*/
