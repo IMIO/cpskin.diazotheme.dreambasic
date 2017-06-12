@@ -44,6 +44,7 @@ setup(
     install_requires=[
         'cpskin.theme',
         'setuptools',
+        'cpskin.diazotheme.dream',
     ],
     extras_require={
     },
