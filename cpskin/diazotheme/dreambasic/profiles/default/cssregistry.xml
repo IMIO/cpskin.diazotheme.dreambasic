@@ -24,7 +24,8 @@
      media="all"
      rel="stylesheet" rendering="import"
      cacheable="True" compression="safe" cookable="True"
-     enabled="1" expression="request/HTTP_X_THEME_ENABLED | nothing"
+     enabled="1"
+     expression="python:here.restrictedTraverse('@@currentTheme')() == 'cpskin.diazotheme.dreambasic'"
      applyPrefix="True"
      insert-after="++theme++cpskin.diazotheme.dreambasic/css/style.css" />
   
@@ -33,7 +34,8 @@
      media="all"
      rel="stylesheet" rendering="import"
      cacheable="True" compression="safe" cookable="True"
-     enabled="1" expression="request/HTTP_X_THEME_ENABLED | nothing"
+     enabled="1"
+     expression="python:here.restrictedTraverse('@@currentTheme')() == 'cpskin.diazotheme.dreambasic'"
      applyPrefix="True"
      insert-after="++theme++cpskin.diazotheme.dream/css/mobile-dream.css" />
 

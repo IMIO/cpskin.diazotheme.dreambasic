@@ -5,7 +5,8 @@ Changelog
 0.3.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix LESS styles inheritance from cpskin.diazotheme.dream : #17714
+  [laulaz]
 
 
 0.3 (2017-05-29)
