@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-0.3.1 (unreleased)
+0.3.1 (2017-06-15)
 ------------------
 
 - Add missing dependency on cpskin.diazotheme.dream
