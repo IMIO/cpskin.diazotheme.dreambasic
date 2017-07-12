@@ -5,6 +5,9 @@ Changelog
 0.3.2 (unreleased)
 ------------------
 
+- Add new annuaire.xml rules coming from cpskin.theme : #17751
+  [laulaz]
+
 - Add missing rules for right actions panel : #17748
   [laulaz]
 
