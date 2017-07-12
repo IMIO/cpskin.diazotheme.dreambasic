@@ -21,12 +21,6 @@
     <!-- Theme -->
     <plone:static directory="static" name="cpskin.diazotheme.dreambasic" type="theme" />
 
-    <cmf:registerDirectory
-        name="skins"
-        directory="skins"
-        recursive="True"
-        />
-
     <!-- Upgrades -->
     <genericsetup:upgradeStep
         title="cpskin.diazotheme.dreambasic theme: upgrade to LESS (v0002)"

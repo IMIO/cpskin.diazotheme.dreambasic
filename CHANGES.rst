@@ -5,6 +5,9 @@ Changelog
 0.3.2 (unreleased)
 ------------------
 
+- Remove unused skin.
+  [bsuttor]
+
 - Add new annuaire.xml rules coming from cpskin.theme : #17751
   [laulaz]
 
