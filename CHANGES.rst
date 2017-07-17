@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-0.3.2 (unreleased)
+0.3.2 (2017-07-17)
 ------------------
 
 - Remove unused skin.
