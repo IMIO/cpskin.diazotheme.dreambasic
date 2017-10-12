@@ -112,7 +112,7 @@
   <drop css:content="#portal-breadcrumbs" />
     
     <!-- Logo to minisite horizontal navigation and minisite action-->
-    <rules test="in-minisite-in-portal">
+    <rules if="$ms_horizontal_navigation_any_mode">
         <before css:content-children="#container-minisite-globalnav">
             <xsl:copy-of select="//*[@id='minisite-actions']" />
             <div id="minisite-navigation-inner">
