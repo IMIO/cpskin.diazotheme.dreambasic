@@ -8,7 +8,7 @@ Changelog
 - Change rules to use new options for search position : #21303
   [laulaz]
 
-
+ 
 0.3.4 (2018-01-09)
 ------------------
 

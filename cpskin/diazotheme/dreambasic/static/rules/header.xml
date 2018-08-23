@@ -56,11 +56,6 @@
                       </a>
                     </div>
                   </xsl:if>
-                  <div id="hidden-search" style="display:none;">
-                    <div id="portal-searchbox-action">
-                      <xsl:copy-of select="./*[@id='portal-searchbox']/*"/>
-                    </div>
-                  </div>
                   <xsl:copy-of select="./*[@id='portal-personaltools-wrapper']" />
                   <xsl:copy-of select="//*[@id='portal-siteactions']" />
                   <xsl:apply-templates select="./*[@id='social-viewlet']" />
@@ -68,6 +63,13 @@
             </div>
             <div class="visualClear"></div>
           </div>
+          <xsl:if test="$is_search_in_actions">
+            <div id="hidden-search" class="top-hidden-search" style="display:none;">
+              <div id="portal-searchbox-action">
+                <xsl:copy-of select="./*[@id='portal-searchbox']/*"/>
+            </div>
+          </div>
+          </xsl:if>
           <div id="top-navigation">
             <div id="top-navigation-inner">
                 <div id="top-logo">
