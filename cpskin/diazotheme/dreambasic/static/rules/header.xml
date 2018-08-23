@@ -48,6 +48,19 @@
             <div id="top-actions-inner">
                 <div id="top-actions-actions">
                   <xsl:copy-of select="./*[@id='top-menu-actions']" />
+                  <xsl:if test="$is_search_in_actions">
+                    <div id="search-action">
+                      <a href="#" class="btn-search">
+                          <span class="ico-search"></span>
+                          <span>Chercher</span>
+                      </a>
+                    </div>
+                  </xsl:if>
+                  <div id="hidden-search" style="display:none;">
+                    <div id="portal-searchbox-action">
+                      <xsl:copy-of select="./*[@id='portal-searchbox']/*"/>
+                    </div>
+                  </div>
                   <xsl:copy-of select="./*[@id='portal-personaltools-wrapper']" />
                   <xsl:copy-of select="//*[@id='portal-siteactions']" />
                   <xsl:apply-templates select="./*[@id='social-viewlet']" />
@@ -71,12 +84,14 @@
                                                             and @id!='portal-logo')]"/>
             </div>
           </div>
-          <div id="hidden-search" style="display:none;">
-            <xsl:copy-of select="./*[@id='portal-searchbox']"/>
-          </div>
+          <xsl:if test="$is_search_in_navigation">
+            <div id="hidden-search" style="display:none;">
+              <xsl:copy-of select="./*[@id='portal-searchbox']"/>
+            </div>
+          </xsl:if>
       </replace>
       <after css:content="#portal-globalnav li:last-child">
-         <xsl:if test="not($is_search_in_banner)">
+         <xsl:if test="$is_search_in_navigation">
             <li>
                  <a href="#"  class="btn-search">
                     <span class="ico-search"></span>
@@ -85,7 +100,7 @@
             </li>             
          </xsl:if>
       </after>  
-        <before if="($is_search_in_banner)" css:content-children="#cpskin-banner">
+        <before if="$is_search_in_banner" css:content-children="#cpskin-banner">
             <div id="top-search">
               <div id="top-search-inner">
                 <xsl:copy-of select="//*[@id='portal-searchbox']"/>
@@ -93,7 +108,7 @@
             </div>
         </before>
         <after css:content="#portal-globalnav li:last-child">
-         <xsl:if test="($is_search_in_banner)">
+         <xsl:if test="$is_search_in_banner">
             <li class="visible-search">
                  <a href="#"  class="btn-search">
                     <span class="ico-search"></span>
