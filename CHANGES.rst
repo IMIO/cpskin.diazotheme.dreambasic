@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-0.3.5 (unreleased)
+0.3.5 (2018-08-27)
 ------------------
 
 - Add uninstall profile
