@@ -86,11 +86,9 @@
                                                             and @id!='portal-logo')]"/>
             </div>
           </div>
-          <xsl:if test="$is_search_in_navigation">
             <div id="hidden-search" style="display:none;">
               <xsl:copy-of select="./*[@id='portal-searchbox']"/>
             </div>
-          </xsl:if>
       </replace>
       <after css:content="#portal-globalnav li:last-child">
          <xsl:if test="$is_search_in_navigation">

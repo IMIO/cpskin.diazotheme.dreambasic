@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-0.3.6 (unreleased)
+0.3.6 (2018-09-07)
 ------------------
 
-- Nothing changed yet.
-
+- Change rules for hidden-search.
+  [mgennart]
 
 0.3.5 (2018-08-27)
 ------------------
