@@ -5,6 +5,9 @@ Changelog
 0.3.7 (unreleased)
 ------------------
 
+- Add class for collapsable minisite menu
+  [mgennart]
+  
 - Use fragment to get "Search" translation
   [laulaz]
 
