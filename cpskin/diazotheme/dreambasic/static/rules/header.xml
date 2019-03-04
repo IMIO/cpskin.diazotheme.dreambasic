@@ -65,6 +65,7 @@
                     <xsl:copy-of select="./*[@id='portal-personaltools-wrapper']" />
                     <xsl:copy-of select="//*[@id='portal-siteactions']" />
                     <xsl:apply-templates select="./*[@id='social-viewlet']" />
+                    <xsl:copy-of select="//*[@id='portal-languageselector']" />
                   </div>
               </div>
               <div class="visualClear"></div>

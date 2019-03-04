@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-0.3.8 (unreleased)
+0.3.8 (2019-03-04)
 ------------------
 
-- Nothing changed yet.
+- Add portal-languageselector in action.
+  [mgennart]
 
 
 0.3.7 (2019-01-08)
