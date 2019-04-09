@@ -5,7 +5,8 @@ Changelog
 0.3.10 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Fix minisite dropdown menu which was hidden
+  [laulaz]
 
 
 0.3.9 (2019-03-04)
