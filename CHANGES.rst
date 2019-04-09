@@ -5,6 +5,9 @@ Changelog
 0.3.10 (unreleased)
 -------------------
 
+- Fix CSS
+  [osnickers]
+
 - Fix minisite dropdown menu which was hidden
   [laulaz]
 
