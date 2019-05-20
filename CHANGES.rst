@@ -5,7 +5,8 @@ Changelog
 0.3.11 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Improve CSS media queries sizes
+  [laulaz]
 
 
 0.3.10 (2019-04-10)
