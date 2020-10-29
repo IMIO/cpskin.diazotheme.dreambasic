@@ -78,7 +78,7 @@ Changelog
 ------------------
 
 - change manifest.
-[mgennart]
+  [mgennart]
 
 
 0.3.2 (2017-07-17)
